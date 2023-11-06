@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+ <!-- AIML Code for Computer Science Career Chatbot -->
+
+<!-- Introduction and Greeting -->
+<category>
+  <pattern>HELLO</pattern>
+  <template>
+    Hello! I'm your computer science career advisor. How can I assist you today?
+  </template>
+</category>
+
+<!-- Personalized Interaction -->
+<category>
+  <pattern>MY INTERESTS ARE *</pattern>
+  <template>
+    That's great! Understanding your interests is key to finding the right career path. Tell me more about your interests in computer science.
+  </template>
+</category>
+
+<!-- Strengths Assessment -->
+<category>
+  <pattern>MY STRENGTH IS *</pattern>
+  <template>
+    Wonderful! Knowing your strengths helps us find a suitable career match. What specific skills are you strong in within the computer science domain?
+  </template>
+</category>
+
+<!-- Career Recommendations -->
+<category>
+  <pattern>RECOMMEND A JOB</pattern>
+  <template>
+    Based on your interests and strengths, roles like software developer, data analyst, cybersecurity specialist, cloud solutions architect, and game developer could be great matches. Would you like more information about any specific role?
+  </template>
+</category>
+
+<!-- Job Details: Software Developer -->
+<category>
+  <pattern>TELL ME ABOUT SOFTWARE DEVELOPER</pattern>
+  <template>
+    Software developers create applications, write code, and debug software. They require skills in programming languages such as Java, Python, or C++. Attention to detail and problem-solving are crucial. Do you need more details about this role or any other?
+  </template>
+</category>
+
+<!-- Job Details: Data Scientist -->
+<category>
+  <pattern>TELL ME ABOUT DATA SCIENTIST</pattern>
+  <template>
+    Data scientists analyze complex data to extract valuable insights. They use statistical methods, machine learning, and programming languages like Python or R. Strong analytical skills and domain knowledge are essential. Do you want more information about this role or any other?
+  </template>
+</category>
+
+<!-- Job Details: Cybersecurity Analyst -->
+<category>
+  <pattern>TELL ME ABOUT CYBERSECURITY ANALYST</pattern>
+  <template>
+    Cybersecurity analysts protect computer systems from cyber threats. They monitor security systems, analyze security breaches, and develop security solutions. Skills in network security, intrusion detection, and risk assessment are vital. Do you need more details about this role or any other?
+  </template>
+</category>
+
+<!-- Job Details: Cloud Solutions Architect -->
+<category>
+  <pattern>TELL ME ABOUT CLOUD SOLUTIONS ARCHITECT</pattern>
+  <template>
+    Cloud solutions architects design and deploy scalable cloud infrastructure. They work with platforms like AWS, Azure, or Google Cloud. Knowledge of cloud platforms and infrastructure design is crucial. Do you want more information about this role or any other?
+  </template>
+</category>
+
+<!-- Job Details: Game Developer -->
+<category>
+  <pattern>TELL ME ABOUT GAME DEVELOPER</pattern>
+  <template>
+    Game developers create interactive video games for various platforms. They work on game design, programming, 3D modeling, and animation. Creativity and technical skills are important. Do you need more details about this role or any other?
+  </template>
+</category>
+
+<!-- Default Response for Unknown Queries -->
+<category>
+  <pattern>*</pattern>
+  <template>
+    I'm sorry, I couldn't understand that. Please feel free to ask another question related to computer science careers.
+  </template>
+</category>
+
+<!-- Job Recommendations Based on Skills -->
+
+<category>
+  <pattern>MY SKILL IS PROGRAMMING</pattern>
+  <template>
+    That's great! Programming skills open up various opportunities. Careers like software developer, web developer, or mobile app developer could be suitable for you. Do you want more details about any of these roles?
+  </template>
+</category>
+
+<category>
+  <pattern>MY SKILL IS DATA ANALYSIS</pattern>
+  <template>
+    Excellent! Data analysis skills are in high demand. Careers such as data scientist, data analyst, or business intelligence analyst could be a good match. Would you like more information about any specific role?
+  </template>
+</category>
+
+<category>
+  <pattern>MY SKILL IS NETWORK SECURITY</pattern>
+  <template>
+    Perfect! Network security skills are crucial in the digital age. Careers like cybersecurity analyst, network security engineer, or IT security consultant could be suitable for you. Do you want more details about any of these roles?
+  </template>
+</category>
+
+<category>
+  <pattern>MY SKILL IS CLOUD COMPUTING</pattern>
+  <template>
+    Fantastic! Cloud computing skills are highly valued. Careers such as cloud solutions architect, cloud engineer, or DevOps engineer could be a good fit for you. Would you like more information about any specific role?
+  </template>
+</category>
+
+<category>
+  <pattern>MY SKILL IS GAME DEVELOPMENT</pattern>
+  <template>
+    Awesome! Game development skills lead to exciting opportunities. Careers like game developer, game designer, or game tester could be suitable for you. Do you want more details about any of these roles?
+  </template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+</aiml>
