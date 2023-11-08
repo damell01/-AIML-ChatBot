@@ -19,7 +19,7 @@ CareerBot is an intelligent chatbot designed to assist students in exploring div
 ## How to Interact with CareerBot
 
 1. **Access CareerBot:**
-   Open your web browser and navigate to the provided PandoraBots link (insert your PandoraBots link here) to start interacting with CareerBot.
+   Open your web browser and navigate to the provided PandoraBots link "PandoraBots.com/directory/wgubot"to start interacting with CareerBot.
 
 2. **Take the Career Assessment:**
    Start the assessment by typing "Take CS Career Assessment" to explore suitable career options.
