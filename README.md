@@ -1,6 +1,4 @@
-Certainly! Here's the modified version of the GitHub README tailored for an AIML PandoraBot:
 
----
 
 # CareerBot: Your Personalized Computer Science Career Advisor
 
